@@ -1,12 +1,9 @@
 import React from "react";
-import FileUpload from "./Components/fileupload";
-import Summarizer from "./Components/summarizer";
+import Summarizer from "./Components/Summarizer/summarizer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Text Summarizer Tool</h1>
-      <FileUpload />
       <Summarizer />
     </div>
   );
